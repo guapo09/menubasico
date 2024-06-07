@@ -4,24 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu basico</title>
+    <title>Menu básico</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-   
 </head>
 <body>
     <header>
-        <a href="https://codigo369.com/" target="_blank"
-        class="logo">
+        <a href="https://earnest-meerkat-6b597c.netlify.app/" target="_blank" class="logo">
             <img src="favicon.png" alt="logo">
             <h2 class="nombre-empresa">codigo369</h2>
         </a>
         <nav>
           <a href="" class="nav-link">Inicio</a>
-          <a href="" class="nav-link">Codigos</a>
+          <a href="" class="nav-link">Códigos</a>
           <a href="" class="nav-link">Contacto</a>
         </nav>
     </header>
 
+    <main>
+        <section class="intro">
+            <h1>Bienvenido a Código 369</h1>
+            <p>Somos una empresa dedicada a la creación de códigos y soluciones tecnológicas a medida.</p>
+        </section>
+
+        <section class="services">
+            <h2>Nuestros Servicios</h2>
+            <div class="service">
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web personalizados y responsivos.</p>
+            </div>
+            <div class="service">
+                <h3>Consultoría Tecnológica</h3>
+                <p>Asesoramiento en soluciones tecnológicas para tu empresa.</p>
+            </div>
+            <!-- Agrega más servicios según sea necesario -->
+        </section>
+
+        <section class="testimonials">
+            <h2>Testimonios</h2>
+            <blockquote>
+                <p>"Código 369 nos ayudó a modernizar nuestra infraestructura tecnológica. ¡Altamente recomendados!"</p>
+                <cite>- Cliente Satisfecho</cite>
+            </blockquote>
+            <!-- Agrega más testimonios -->
+        </section>
+
+        <section class="contact">
+            <h2>Contacto</h2>
+            <form action="/enviar-mensaje" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Código 369. Todos los derechos reservados.</p>
+        <nav>
+            <a href="https://facebook.com/codigo369" target="_blank">Facebook</a>
+            <a href="https://twitter.com/codigo369" target="_blank">Twitter</a>
+            <a href="https://instagram.com/codigo369" target="_blank">Instagram</a>
+        </nav>
+    </footer>
 </body>
 </html>
